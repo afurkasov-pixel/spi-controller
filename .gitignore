@@ -1,0 +1,11 @@
+build_vl/
+build_ivl/
+cov_annot/
+coverage.dat
+*.vcd
+*.log
+simv.out
+verilator_sim
+obj_dir/
+sim_build/
+__pycache__/

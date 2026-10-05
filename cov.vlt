@@ -1,0 +1,2 @@
+`verilator_config
+coverage_off -file "*/tb_spi_controller.sv"
