@@ -4,8 +4,8 @@
 .DEFAULT_GOAL := help
 
 RTL   := RTL/spi_fifo.sv RTL/spi_protocol_engine.sv RTL/spi_controller.sv
-TB    := tb/sv_tb/tb_spi_controller.sv
-TOP   := tb_spi_controller
+TB    ?= tb/sv_tb/tb_spi_v2.sv
+TOP   ?= tb_spi_v2
 BUILD := build
 SEED  ?= 1
 TEST  ?= all
