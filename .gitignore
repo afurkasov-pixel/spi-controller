@@ -9,3 +9,4 @@ verilator_sim
 obj_dir/
 sim_build/
 __pycache__/
+build/
